@@ -13,8 +13,8 @@ const covid19ImpactEstimator = (data) => {
   const infectionsByRequestedTimeForSevereImpact = severeImpact * 512;
   return {
     data: input,
-    impact: {},
-    severeImpact: {}
+    impact: infectionsByRequestedTimeForImpact,
+    severeImpact: infectionsByRequestedTimeForSevereImpact
   };
 };
 export default covid19ImpactEstimator;
