@@ -16,7 +16,6 @@ const Output = function ({
   this.estimationFactor = estimationFactor;
 };
 /* eslint-disable consistent-return */
-
 Output.prototype.convertToDays = function () {
   if (this.periodType === 'days' || this.periodType === 'day') {
     return this.timeToElapse;
